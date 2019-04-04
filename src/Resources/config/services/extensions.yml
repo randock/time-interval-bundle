@@ -1,0 +1,7 @@
+services:
+
+    randock.time_interval_bundle.readable_time_interval_extension:
+      class: Randock\TimeIntervalBundle\TwigExtension\ReadableTimeIntervalExtension
+      tags:
+          - { name: twig.extension }
+

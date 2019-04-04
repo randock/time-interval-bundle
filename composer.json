@@ -1,0 +1,32 @@
+{
+  "name": "randock/time-interval-bundle",
+  "description": "Randock TimeIntervalBundle",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Randock\\TimeIntervalBundle\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\Randock\\TimeIntervalBundle\\": "tests/"
+    }
+  },
+  "config": {
+    "sort-packages": true,
+    "platform": {
+      "php": "7.1.17"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "require": {
+    "randock/time-interval": "^0.1",
+    "symfony/framework-bundle": "^3.0",
+    "twig/twig": "^2.7"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.5"
+  }
+}
