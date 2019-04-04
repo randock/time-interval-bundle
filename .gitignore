@@ -2,4 +2,4 @@
 docker-compose.yml
 vendor
 build
-.DS_Store
+.php_cs.cache
