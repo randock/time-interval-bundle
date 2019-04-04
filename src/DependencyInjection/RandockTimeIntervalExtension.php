@@ -2,14 +2,12 @@
 
 declare(strict_types=1);
 
-namespace Randock\TimeIntervalBundle\Extension;
+namespace Randock\TimeIntervalBundle\DependencyInjection;
 
+use Symfony\Component\Config\FileLocator;
+use Symfony\Component\DependencyInjection\Loader;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Extension\Extension;
-use Symfony\Component\DependencyInjection\Loader;
-use Symfony\Component\Config\FileLocator;
-
-
 
 class RandockTimeIntervalExtension extends Extension
 {
