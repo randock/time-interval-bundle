@@ -22,7 +22,7 @@
   "minimum-stability": "dev",
   "prefer-stable": true,
   "require": {
-    "randock/time-interval": ">=0.2.0",
+    "randock/time-interval": "^0.2.1",
     "symfony/framework-bundle": ">=3.0|>=4.0",
     "twig/twig": ">=2"
   },

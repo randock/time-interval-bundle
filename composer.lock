@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "aea8bd6faf891bab9ec9fb7562fbc72b",
+    "content-hash": "ba656ea752818cd139fb746c68b67d87",
     "packages": [
         {
             "name": "psr/cache",
@@ -198,19 +198,20 @@
         },
         {
             "name": "randock/time-interval",
-            "version": "0.1.1",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/randock/time-interval.git",
-                "reference": "62c76e4a13c32698e312898ed702127e59116592"
+                "reference": "7393a8c0935f201da670b2540415caa95596a5d0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/randock/time-interval/zipball/62c76e4a13c32698e312898ed702127e59116592",
-                "reference": "62c76e4a13c32698e312898ed702127e59116592",
+                "url": "https://api.github.com/repos/randock/time-interval/zipball/7393a8c0935f201da670b2540415caa95596a5d0",
+                "reference": "7393a8c0935f201da670b2540415caa95596a5d0",
                 "shasum": ""
             },
             "require": {
+                "ext-intl": "*",
                 "symfony/translation": "^3.3|^4.0",
                 "symfony/yaml": "^3.3|^4.0"
             },
@@ -228,7 +229,7 @@
                 "MIT"
             ],
             "description": "Randock TimeInterval",
-            "time": "2019-05-27T09:08:35+00:00"
+            "time": "2019-05-27T13:48:08+00:00"
         },
         {
             "name": "symfony/cache",
